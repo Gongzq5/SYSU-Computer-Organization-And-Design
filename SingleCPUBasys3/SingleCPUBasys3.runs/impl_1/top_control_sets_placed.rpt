@@ -1,0 +1,118 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
+| Date         : Tue May 29 02:44:56 2018
+| Host         : LAPTOP-0H77ONJ6 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+-----------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    65 |
+| Minimum Number of register sites lost to control set restrictions |    10 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              23 |            8 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             488 |          272 |
+| Yes          | No                    | Yes                    |               7 |            4 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------+------------------+------------------+----------------+
+|  Clock Signal  |    Enable Signal    | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------+---------------------+------------------+------------------+----------------+
+|  div/out[0]    |                     |                  |                3 |              5 |
+|  key_out_BUFG  | cputop/pc/PCWre     | Reset_IBUF       |                4 |              7 |
+| ~key_out_BUFG  | cputop/pc/O173[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O84[0]    |                  |                3 |              8 |
+| ~key_out_BUFG  | cputop/pc/O123[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O122[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O146[0]   |                  |                3 |              8 |
+| ~key_out_BUFG  | cputop/pc/O158[0]   |                  |                7 |              8 |
+| ~key_out_BUFG  | cputop/pc/O172[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O181[0]   |                  |                3 |              8 |
+| ~key_out_BUFG  | cputop/pc/O174[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O175[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O176[0]   |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O177[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O178[0]   |                  |                6 |              8 |
+| ~key_out_BUFG  | cputop/pc/O179[0]   |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O180[0]   |                  |                6 |              8 |
+| ~key_out_BUFG  | cputop/pc/O182[0]   |                  |                6 |              8 |
+| ~key_out_BUFG  | cputop/pc/O183[0]   |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O184[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O185[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O186[0]   |                  |                6 |              8 |
+| ~key_out_BUFG  | cputop/pc/O187[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O188[0]   |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O189[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O194[0]   |                  |                3 |              8 |
+| ~key_out_BUFG  | cputop/pc/O195[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O196[0]   |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O197[0]   |                  |                3 |              8 |
+| ~key_out_BUFG  | cputop/pc/O198[0]   |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O199[0]   |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O200[0]   |                  |                6 |              8 |
+| ~key_out_BUFG  | cputop/pc/O201[0]   |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O51[0]    |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O56[0]    |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O57[0]    |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O58[0]    |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O59[0]    |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O60[0]    |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O61[0]    |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O66[0]    |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O67[0]    |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O68[0]    |                  |                3 |              8 |
+| ~key_out_BUFG  | cputop/pc/O69[0]    |                  |                3 |              8 |
+| ~key_out_BUFG  | cputop/pc/O72[0]    |                  |                3 |              8 |
+| ~key_out_BUFG  | cputop/pc/O73[0]    |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O74[0]    |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O75[0]    |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O77[0]    |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O78[0]    |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O79[0]    |                  |                8 |              8 |
+| ~key_out_BUFG  | cputop/pc/O80[0]    |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O81[0]    |                  |                3 |              8 |
+| ~key_out_BUFG  | cputop/pc/O82[0]    |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/O83[0]    |                  |                5 |              8 |
+| ~key_out_BUFG  | cputop/pc/O76[0]    |                  |                6 |              8 |
+| ~key_out_BUFG  | cputop/pc/O85[0]    |                  |                7 |              8 |
+| ~key_out_BUFG  | cputop/pc/E[0]      |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/I66[0]    |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/I60[0]    |                  |                4 |              8 |
+| ~key_out_BUFG  | cputop/pc/I64[0]    |                  |                3 |              8 |
+| ~key_out_BUFG  | cputop/pc/O94[0]    |                  |                3 |              8 |
+| ~key_out_BUFG  | cputop/pc/O95[0]    |                  |                5 |              8 |
+|  clk_IBUF_BUFG |                     |                  |                5 |             18 |
+|  key/O1        | cputop/pc/p_0_in__0 |                  |               12 |             96 |
++----------------+---------------------+------------------+------------------+----------------+
+
+

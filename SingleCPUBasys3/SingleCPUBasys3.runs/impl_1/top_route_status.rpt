@@ -1,0 +1,48 @@
+Design Route Status
+                                               :      # nets :
+   ------------------------------------------- : ----------- :
+   # of logical nets.......................... :        3577 :
+       # of nets not needing routing.......... :         867 :
+           # of internally routed nets........ :         835 :
+           # of nets with no loads............ :          32 :
+       # of routable nets..................... :        2710 :
+           # of fully routed nets............. :        2694 :
+       # of nets with routing errors.......... :          16 :
+           # of nets with some unrouted pins.. :          16 :
+   ------------------------------------------- : ----------- :
+
+
+Nets with Routing Errors:
+  cputop/pc/DIA[0]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_12_17_i_4/O
+  cputop/pc/DIB[0]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_6_11_i_8/O
+  cputop/pc/DIB[1]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_6_11_i_6/O
+  cputop/pc/O17[0]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_0_5_i_14/O
+  cputop/pc/data[0]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_0_5_i_4/O
+  cputop/pc/data[10]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_12_17_i_6/O
+  cputop/pc/data[1]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_0_5_i_9/O
+  cputop/pc/data[2]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_0_5_i_8/O
+  cputop/pc/data[3]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_0_5_i_12/O
+  cputop/pc/data[4]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_6_11_i_4/O
+  cputop/pc/data[6]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_6_11_i_12/O
+  cputop/pc/data[7]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_6_11_i_9/O
+  cputop/pc/data[8]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_12_17_i_2/O
+  cputop/pc/data[9]
+    Unrouted Pin: cputop/pc/regFile_reg_r1_0_31_12_17_i_8/O
+  cputop/rf/O16[0]
+    Unrouted Pin: cputop/rf/regFile_reg_r1_0_31_0_5_i_5/O
+  cputop/rf/data[5]
+    Unrouted Pin: cputop/rf/regFile_reg_r1_0_31_6_11_i_2/O
+

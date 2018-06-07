@@ -1,0 +1,536 @@
+
+*** Running vivado
+    with args -log top.vdi -applog -m64 -messageDb vivado.pb -mode batch -source top.tcl -notrace
+
+
+****** Vivado v2014.2 (64-bit)
+  **** SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+  **** IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 38 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.2
+Loading clock regions from H:/Vivado/Vivado/Vivado/2014.2/data\parts/xilinx/artix7/artix7/xc7a35t/ClockRegion.xml
+Loading clock buffers from H:/Vivado/Vivado/Vivado/2014.2/data\parts/xilinx/artix7/artix7/xc7a35t/ClockBuffers.xml
+Loading clock placement rules from H:/Vivado/Vivado/Vivado/2014.2/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from H:/Vivado/Vivado/Vivado/2014.2/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from H:/Vivado/Vivado/Vivado/2014.2/data\parts/xilinx/artix7/artix7/xc7a35t/cpg236/Package.xml
+Loading io standards from H:/Vivado/Vivado/Vivado/2014.2/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from H:/Vivado/Vivado/Vivado/2014.2/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Parsing XDC File [H:/Vivado/VivadoProject/SingleCPUBasys3/SingleCPUBasys3.srcs/constrs_1/new/topcons.xdc]
+Finished Parsing XDC File [H:/Vivado/VivadoProject/SingleCPUBasys3/SingleCPUBasys3.srcs/constrs_1/new/topcons.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 454.148 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-194] Inserted BUFG key/xlnx_opt_BUFG to drive 96 load(s) on clock net key/O1
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 10a362989
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 25 cells.
+Phase 2 Constant Propagation | Checksum: 1f128e51c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.203 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 86 unconnected nets.
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/DIA[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/DIB[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/DIB[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/O16[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/O17[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/data[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/data[10].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/data[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/data[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/data[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/data[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/data[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/data[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/data[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/data[8].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/pc/data[9].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/O16[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/O1[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/O1[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/O1[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/data[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/data[10].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/data[11].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/data[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/data[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/data[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/data[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/data[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/data[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/data[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/data[8].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/rf/data[9].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/O1[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/O1[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/O1[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/O1[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/data[10].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/data[11].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/data[13].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/data[14].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/data[15].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/data[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/data[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/data[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/data[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/data[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/data[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: cputop/data[9].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: hex/I1[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: hex/I1[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: hex/I1[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: hex/I1[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: data[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: data[12].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: data[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: data[8].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+INFO: [Opt 31-11] Eliminated 3 unconnected cells.
+Phase 3 Sweep | Checksum: 12efeae6a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.328 . Memory (MB): peak = 853.922 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 12efeae6a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.344 . Memory (MB): peak = 853.922 ; gain = 0.000
+Implement Debug Cores | Checksum: e6b88699
+Logic Optimization | Checksum: e6b88699
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Will skip clock gating for clocks with period < 3.13 ns.
+Ending Power Optimization Task | Checksum: 12efeae6a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 853.922 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+24 Infos, 0 Warnings, 56 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 853.922 ; gain = 399.773
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.141 . Memory (MB): peak = 853.922 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command place_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: cc28585f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 2 Placer Initialization
+
+Phase 2.1 Placer Initialization Core
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 2.1.1 Mandatory Logic Optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 853.922 ; gain = 0.000
+Phase 2.1.1 Mandatory Logic Optimization | Checksum: 6e93b7ff
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 2.1.2 Build Super Logic Region (SLR) Database
+Phase 2.1.2 Build Super Logic Region (SLR) Database | Checksum: 6e93b7ff
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 2.1.3 Add Constraints
+Phase 2.1.3 Add Constraints | Checksum: 6e93b7ff
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 2.1.4 Build Shapes/ HD Config
+
+Phase 2.1.4.1 Build Macros
+Phase 2.1.4.1 Build Macros | Checksum: 812d35bd
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.274 . Memory (MB): peak = 853.922 ; gain = 0.000
+Phase 2.1.4 Build Shapes/ HD Config | Checksum: 812d35bd
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.276 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 2.1.5 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.5.1 Pre-Place Cells
+Phase 2.1.5.1 Pre-Place Cells | Checksum: 6e93b7ff
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.290 . Memory (MB): peak = 853.922 ; gain = 0.000
+WARNING: [Place 30-568] A LUT 'key/out_BUFG_inst_i_1' is driving clock pin of 495 registers. This could lead to large hold time violations. First few involved registers are:
+	cputop/dm/ram_reg[0][0] {FDRE}
+	cputop/dm/ram_reg[0][1] {FDRE}
+	cputop/dm/ram_reg[0][2] {FDRE}
+	cputop/dm/ram_reg[0][3] {FDRE}
+	cputop/dm/ram_reg[0][4] {FDRE}
+WARNING: [Place 30-568] A LUT 'key/regFile_reg_r1_0_31_0_5_i_1' is driving clock pin of 96 registers. This could lead to large hold time violations. First few involved registers are:
+	cputop/rf/regFile_reg_r1_0_31_12_17/RAMA_D1 {RAMD32}
+	cputop/rf/regFile_reg_r1_0_31_12_17/RAMA {RAMD32}
+	cputop/rf/regFile_reg_r1_0_31_12_17/RAMB {RAMD32}
+	cputop/rf/regFile_reg_r1_0_31_12_17/RAMC_D1 {RAMD32}
+	cputop/rf/regFile_reg_r1_0_31_12_17/RAMC {RAMD32}
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2.1.5.2 IO & Clk Clean Up
+Phase 2.1.5.2 IO & Clk Clean Up | Checksum: 6e93b7ff
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.718 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 2.1.5.3 Implementation Feasibility check On IDelay
+Phase 2.1.5.3 Implementation Feasibility check On IDelay | Checksum: 6e93b7ff
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.725 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 2.1.5.4 Commit IO Placement
+Phase 2.1.5.4 Commit IO Placement | Checksum: bef7fd6d
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.726 . Memory (MB): peak = 853.922 ; gain = 0.000
+Phase 2.1.5 IO Placement/ Clock Placement/ Build Placer Device | Checksum: d1917b2b
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.727 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 2.1.6 Build Placer Netlist Model
+
+Phase 2.1.6.1 Place Init Design
+Phase 2.1.6.1 Place Init Design | Checksum: fa743bdc
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.831 . Memory (MB): peak = 853.922 ; gain = 0.000
+Phase 2.1.6 Build Placer Netlist Model | Checksum: fa743bdc
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.836 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 2.1.7 Constrain Clocks/Macros
+
+Phase 2.1.7.1 Constrain Global/Regional Clocks
+Phase 2.1.7.1 Constrain Global/Regional Clocks | Checksum: fa743bdc
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.847 . Memory (MB): peak = 853.922 ; gain = 0.000
+Phase 2.1.7 Constrain Clocks/Macros | Checksum: fa743bdc
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.853 . Memory (MB): peak = 853.922 ; gain = 0.000
+Phase 2.1 Placer Initialization Core | Checksum: fa743bdc
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.858 . Memory (MB): peak = 853.922 ; gain = 0.000
+Phase 2 Placer Initialization | Checksum: fa743bdc
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.863 . Memory (MB): peak = 853.922 ; gain = 0.000
+
+Phase 3 Global Placement
+Phase 3 Global Placement | Checksum: 11e0cb547
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 856.609 ; gain = 2.688
+
+Phase 4 Detail Placement
+
+Phase 4.1 Commit Multi Column Macros
+Phase 4.1 Commit Multi Column Macros | Checksum: 11e0cb547
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 856.609 ; gain = 2.688
+
+Phase 4.2 Commit Most Macros & LUTRAMs
+Phase 4.2 Commit Most Macros & LUTRAMs | Checksum: df51e0e1
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 856.609 ; gain = 2.688
+
+Phase 4.3 Area Swap Optimization
+Phase 4.3 Area Swap Optimization | Checksum: 12c8077b4
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 856.609 ; gain = 2.688
+
+Phase 4.4 Commit Small Macros & Core Logic
+Phase 4.4 Commit Small Macros & Core Logic | Checksum: 1622d226e
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 863.316 ; gain = 9.395
+
+Phase 4.5 Re-assign LUT pins
+Phase 4.5 Re-assign LUT pins | Checksum: 1622d226e
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 863.316 ; gain = 9.395
+Phase 4 Detail Placement | Checksum: 1622d226e
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 863.316 ; gain = 9.395
+
+Phase 5 Post Placement Optimization and Clean-Up
+
+Phase 5.1 PCOPT Shape updates
+Phase 5.1 PCOPT Shape updates | Checksum: 16cae1b7a
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 863.316 ; gain = 9.395
+
+Phase 5.2 Post Placement Cleanup
+Phase 5.2 Post Placement Cleanup | Checksum: 16cae1b7a
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 863.316 ; gain = 9.395
+
+Phase 5.3 Placer Reporting
+Phase 5.3 Placer Reporting | Checksum: 16cae1b7a
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 863.316 ; gain = 9.395
+
+Phase 5.4 Final Placement Cleanup
+Phase 5.4 Final Placement Cleanup | Checksum: 12bb6a2a4
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 863.316 ; gain = 9.395
+Phase 5 Post Placement Optimization and Clean-Up | Checksum: 12bb6a2a4
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 863.316 ; gain = 9.395
+Ending Placer Task | Checksum: b98d13d5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:04 . Memory (MB): peak = 863.316 ; gain = 9.395
+INFO: [Common 17-83] Releasing license: Implementation
+31 Infos, 2 Warnings, 56 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.375 . Memory (MB): peak = 869.031 ; gain = 5.715
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 873.328 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command route_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Starting Route Task
+
+Phase 1 Build RT Design
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/data[8] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/DIB[0] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/data[4] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/rf/data[5] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/DIB[1] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/data[6] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/data[7] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/data[10] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/rf/O16[0] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/data[3] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/data[2] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/data[9] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/data[0] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/data[1] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/O17[0] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net cputop/pc/DIA[0] detected. Design will not pass DRC check. Router will ignore one driver
+Phase 1 Build RT Design | Checksum: a094bb65
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:18 . Memory (MB): peak = 1002.914 ; gain = 121.375
+
+Phase 2 Router Initialization
+INFO: [Route 35-64] No timing constraints were detected. The router will operate in resource-optimization mode.
+ Number of Nodes with overlaps = 0
+Phase 2 Router Initialization | Checksum: 17c0766e3
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1012.813 ; gain = 131.273
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 105420268
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 1012.813 ; gain = 131.273
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 599
+ Number of Nodes with overlaps = 0
+Phase 4.1 Global Iteration 0 | Checksum: dc8ed78d
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1012.813 ; gain = 131.273
+Phase 4 Rip-up And Reroute | Checksum: dc8ed78d
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1012.813 ; gain = 131.273
+
+Phase 5 Post Hold Fix
+Phase 5 Post Hold Fix | Checksum: dc8ed78d
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1012.813 ; gain = 131.273
+
+Phase 6 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 1.05302 %
+  Global Horizontal Routing Utilization  = 1.42725 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 48.6486%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 38.7387%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 47.0588%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 44.1176%, No Congested Regions.
+Phase 6 Route finalize | Checksum: dc8ed78d
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1012.813 ; gain = 131.273
+
+Phase 7 Verifying routed nets
+
+ Verification completed successfully
+Phase 7 Verifying routed nets | Checksum: dc8ed78d
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1012.813 ; gain = 131.273
+
+Phase 8 Depositing Routes
+Phase 8 Depositing Routes | Checksum: 8b29f431
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1012.813 ; gain = 131.273
+INFO: [Route 35-16] Router Completed Successfully
+Ending Route Task | Checksum: 8b29f431
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:20 . Memory (MB): peak = 1012.813 ; gain = 131.273
+
+Routing Is Done.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:20 . Memory (MB): peak = 1012.813 ; gain = 131.273
+INFO: [Common 17-83] Releasing license: Implementation
+39 Infos, 2 Warnings, 72 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 1012.813 ; gain = 139.484
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.594 . Memory (MB): peak = 1012.813 ; gain = 0.000
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file H:/Vivado/VivadoProject/SingleCPUBasys3/SingleCPUBasys3.runs/impl_1/top_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Constraints type: SDC.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Power 33-232] No user defined clocks was found in the design!
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command write_bitstream
+INFO: [Drc 23-27] Running DRC with 2 threads
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/DIA[0] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_12_17_i_3/O, cputop/pc/regFile_reg_r1_0_31_12_17_i_4/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/DIB[0] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_6_11_i_7/O, cputop/pc/regFile_reg_r1_0_31_6_11_i_8/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/DIB[1] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_6_11_i_5/O, cputop/pc/regFile_reg_r1_0_31_6_11_i_6/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/O17[0] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_0_5_i_13/O, cputop/pc/regFile_reg_r1_0_31_0_5_i_14/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/data[0] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_0_5_i_3/O, cputop/pc/regFile_reg_r1_0_31_0_5_i_4/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/data[10] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_12_17_i_5/O, cputop/pc/regFile_reg_r1_0_31_12_17_i_6/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/data[1] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_0_5_i_10/O, cputop/pc/regFile_reg_r1_0_31_0_5_i_9/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/data[2] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_0_5_i_7/O, cputop/pc/regFile_reg_r1_0_31_0_5_i_8/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/data[3] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_0_5_i_11/O, cputop/pc/regFile_reg_r1_0_31_0_5_i_12/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/data[4] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_6_11_i_3/O, cputop/pc/regFile_reg_r1_0_31_6_11_i_4/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/data[6] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_6_11_i_11/O, cputop/pc/regFile_reg_r1_0_31_6_11_i_12/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/data[7] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_6_11_i_10/O, cputop/pc/regFile_reg_r1_0_31_6_11_i_9/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/data[8] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_12_17_i_1/O, cputop/pc/regFile_reg_r1_0_31_12_17_i_2/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/pc/data[9] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_12_17_i_7/O, cputop/pc/regFile_reg_r1_0_31_12_17_i_8/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/rf/O16[0] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_0_5_i_6/O, cputop/rf/regFile_reg_r1_0_31_0_5_i_5/O.
+ERROR: [Drc 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net cputop/rf/data[5] has multiple drivers: cputop/pc/regFile_reg_r1_0_31_6_11_i_1/O, cputop/rf/regFile_reg_r1_0_31_6_11_i_2/O.
+ERROR: [Drc 23-20] Rule violation (RTSTAT-2) Partially routed net - 16 net(s) are partially routed. The problem net(s) are cputop/pc/DIA[0], cputop/pc/DIB[0], cputop/pc/DIB[1], cputop/rf/O16[0], cputop/pc/O17[0], cputop/pc/data[0], cputop/pc/data[1], cputop/pc/data[2], cputop/pc/data[3], cputop/pc/data[4], cputop/rf/data[5], cputop/pc/data[6], cputop/pc/data[7], cputop/pc/data[8], cputop/pc/data[9] (the first 15 of 16 listed).
+INFO: [Vivado 12-3199] DRC finished with 17 Errors, 5 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado 12-1345] Error(s) found during DRC. Bitgen not run.
+INFO: [Common 17-83] Releasing license: Implementation
+ERROR: [Common 17-39] 'write_bitstream' failed due to earlier errors.
+
+    while executing
+"write_bitstream -force top.bit "
+INFO: [Common 17-206] Exiting Vivado at Tue May 29 02:45:21 2018...
