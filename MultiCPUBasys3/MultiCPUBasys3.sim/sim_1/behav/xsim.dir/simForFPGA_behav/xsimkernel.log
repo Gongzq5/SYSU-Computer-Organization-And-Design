@@ -1,0 +1,5 @@
+Running: xsim.dir/simForFPGA_behav/xsimk.exe -simmode gui -wdb simForFPGA_behav.wdb -simrunnum 0 -socket 30078
+Design successfully loaded
+Design Loading CPU Usage: 343 ms
+Simulation completed
+Simulation CPU Usage: 358 ms

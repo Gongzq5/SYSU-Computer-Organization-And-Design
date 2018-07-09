@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simForFPGA_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="simForFPGA" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject db_ref_id="1" fp_name="/simForFPGA/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/simForFPGA/step" type="logic">
+      <obj_property name="ElementShortName">step</obj_property>
+      <obj_property name="ObjectShortName">step</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/simForFPGA/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/simForFPGA/Sel" type="array">
+      <obj_property name="ElementShortName">Sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/simForFPGA/atog" type="array">
+      <obj_property name="ElementShortName">atog[6:0]</obj_property>
+      <obj_property name="ObjectShortName">atog[6:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/simForFPGA/enlight" type="array">
+      <obj_property name="ElementShortName">enlight[3:0]</obj_property>
+      <obj_property name="ObjectShortName">enlight[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/simForFPGA/t/div/clk_190hz" type="logic">
+      <obj_property name="ElementShortName">clk_190hz</obj_property>
+      <obj_property name="ObjectShortName">clk_190hz</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/simForFPGA/t/cputop/pc/Address" type="array">
+      <obj_property name="ElementShortName">Address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Address[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/simForFPGA/t/cputop/ir/oData" type="array">
+      <obj_property name="ElementShortName">oData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">oData[31:0]</obj_property>
+   </wvobject>
+</wave_config>

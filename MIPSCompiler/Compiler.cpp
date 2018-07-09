@@ -192,10 +192,10 @@ std::string convert() {
             break;
         // 8: op rs
 		case 8:
-            scanf("%d", &rs);
+            scanf(" $%d", &rs);
             ltoa(rs, tmps, 2);
             sprintf(rss, "%05s", tmps);
-            instruction = instruction + rss + "00000" + "00000" + "000000";
+            instruction = instruction + rss + "00000" + "00000" + "00000" + "000000";
             break;
         // 9: op null
 		case 9:
@@ -214,7 +214,7 @@ int main(void) {
         if ("wrong" == convert()) {
             return 0;
         }
-        cout << instruction << endl;    
+        cout << instruction << endl;       
     }
 	
     return 0;

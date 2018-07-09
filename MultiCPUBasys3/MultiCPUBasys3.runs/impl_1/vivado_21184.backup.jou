@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Wed Jun 20 15:36:47 2018
+# Process ID: 18768
+# Log file: H:/Vivado/VivadoProject/MultiCPUBasys3/MultiCPUBasys3.runs/impl_1/top.vdi
+# Journal file: H:/Vivado/VivadoProject/MultiCPUBasys3/MultiCPUBasys3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace

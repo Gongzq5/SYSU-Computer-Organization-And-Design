@@ -1,0 +1,72 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
+| Date         : Wed Jun 20 15:55:57 2018
+| Host         : LAPTOP-0H77ONJ6 running 64-bit major release  (build 9200)
+| Command      : report_drc
+-----------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+           Max violations: <unlimited>
+         Violations found: 5
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+PDRC-153#1 Warning
+Gated clock check  
+Net key/O1 is a gated clock net sourced by a combinational pin key/regFile_reg_r1_0_31_0_5_i_1/O, cell key/regFile_reg_r1_0_31_0_5_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net key/n_1_n_0_2823_BUFG_inst is a gated clock net sourced by a combinational pin key/n_0_2823_BUFG_inst_i_1/O, cell key/n_0_2823_BUFG_inst_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT key/n_0_2823_BUFG_inst_i_1 is driving clock pin of 664 cells. This could lead to large hold time violations. First few involved cells are:
+    cputop/adr/oData_reg[10] {FDRE}
+    cputop/adr/oData_reg[0] {FDRE}
+    cputop/adr/oData_reg[11] {FDRE}
+    cputop/adr/oData_reg[12] {FDRE}
+    cputop/adr/oData_reg[13] {FDRE}
+
+Related violations: <none>
+
+PLHOLDVIO-2#2 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT key/regFile_reg_r1_0_31_0_5_i_1 is driving clock pin of 96 cells. This could lead to large hold time violations. First few involved cells are:
+    cputop/rf/regFile_reg_r1_0_31_24_29/RAMD (in cputop/rf/regFile_reg_r1_0_31_24_29 macro) {RAMS32}
+    cputop/rf/regFile_reg_r1_0_31_24_29/RAMD_D1 (in cputop/rf/regFile_reg_r1_0_31_24_29 macro) {RAMS32}
+    cputop/rf/regFile_reg_r1_0_31_24_29/RAMC (in cputop/rf/regFile_reg_r1_0_31_24_29 macro) {RAMD32}
+    cputop/rf/regFile_reg_r1_0_31_24_29/RAMC_D1 (in cputop/rf/regFile_reg_r1_0_31_24_29 macro) {RAMD32}
+    cputop/rf/regFile_reg_r1_0_31_24_29/RAMB (in cputop/rf/regFile_reg_r1_0_31_24_29 macro) {RAMD32}
+
+Related violations: <none>
+
+

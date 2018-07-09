@@ -1,0 +1,75 @@
+Vivado Simulator 2014.2
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: H:/Vivado/Vivado/Vivado/2014.2/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Multi_sim_behav --prj H:/Vivado/VivadoProject/MultiCPU/MultiCPU.sim/sim_1/behav/Multi_sim.prj xil_defaultlib.Multi_sim xil_defaultlib.glbl 
+Multi-threading is on. Using 6 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/NextStateProductor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NextStateProductor
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/Dtrigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dtrigger
+WARNING: [VRFC 10-1315] redeclaration of ansi port oState is not allowed [H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/Dtrigger.v:30]
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/PCPlus4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCPlus4
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/Multiplexer4_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer4_32
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/Multiplexer2_32_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer2_32_5
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/Multiplexer2_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer2_32
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/J_Address.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module J_Address
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR
+WARNING: [VRFC 10-1315] redeclaration of ansi port oData is not allowed [H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/IR.v:30]
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/InstructMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructMemory
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/DataSync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataSync
+WARNING: [VRFC 10-1315] redeclaration of ansi port oData is not allowed [H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/DataSync.v:29]
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/BranchPlus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchPlus
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sim_1/new/Multi_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multi_sim
+INFO: [VRFC 10-165] Analyzing Verilog file "H:/Vivado/Vivado/Vivado/2014.2/data/verilog/src/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 32 for port select_0 [H:/Vivado/VivadoProject/MultiCPU/MultiCPU.srcs/sources_1/imports/new/CPU.v:63]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PCPlus4
+Compiling module xil_defaultlib.InstructMemory
+Compiling module xil_defaultlib.IR
+Compiling module xil_defaultlib.Dtrigger
+Compiling module xil_defaultlib.NextStateProductor
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.Multiplexer4_32
+Compiling module xil_defaultlib.Multiplexer2_32
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.DataSync
+Compiling module xil_defaultlib.Multiplexer2_32_5
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.J_Address
+Compiling module xil_defaultlib.BranchPlus
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.Multi_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Multi_sim_behav

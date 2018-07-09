@@ -1,0 +1,124 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
+| Date         : Wed Jun 20 15:55:29 2018
+| Host         : LAPTOP-0H77ONJ6 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+-----------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    71 |
+| Minimum Number of register sites lost to control set restrictions |    25 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              56 |           19 |
+| No           | No                    | Yes                    |               3 |            1 |
+| No           | Yes                   | No                     |              69 |           29 |
+| Yes          | No                    | No                     |             520 |          254 |
+| Yes          | No                    | Yes                    |              39 |           22 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------------+------------------+------------------+----------------+
+|  Clock Signal  |       Enable Signal      | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------+--------------------------+------------------+------------------+----------------+
+| ~n_0_2823_BUFG |                          | Reset_IBUF       |                1 |              3 |
+|  div/out[0]    |                          |                  |                2 |              5 |
+| ~n_0_2823_BUFG |                          | cputop/ir/O29    |                4 |              5 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O16[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O15[0]   |                  |                2 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O14[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O13[0]   |                  |                2 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O12[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/E[0]     |                  |                2 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O71[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O70[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O69[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O68[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O67[0]   |                  |                2 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O66[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O65[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O64[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O63[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O62[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O61[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O60[0]   |                  |                2 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O59[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O58[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O57[0]   |                  |                6 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O56[0]   |                  |                2 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O55[0]   |                  |                8 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O54[0]   |                  |                6 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O53[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O52[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O51[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O50[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O49[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O48[0]   |                  |                6 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O47[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O46[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O45[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O44[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O43[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O42[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O41[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O40[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O39[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O38[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O37[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O36[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O35[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O34[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O33[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O32[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O31[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O30[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O29[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O27[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O26[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O25[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O28[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O24[0]   |                  |                4 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O23[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O22[0]   |                  |                2 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O21[0]   |                  |                2 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O20[0]   |                  |                2 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O19[0]   |                  |                5 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O18[0]   |                  |                3 |              8 |
+| ~n_0_2823_BUFG | cputop/aluoutdr/O17[0]   |                  |                3 |              8 |
+|  clk_IBUF_BUFG |                          |                  |                5 |             18 |
+| ~n_0_2823_BUFG |                          | cputop/ir/O19    |               11 |             32 |
+| ~n_0_2823_BUFG |                          | cputop/ir/O5     |               14 |             32 |
+| ~n_0_2823_BUFG | cputop/cu/dtrigger/O1[0] |                  |               19 |             32 |
+| ~n_0_2823_BUFG |                          |                  |               12 |             33 |
+|  n_0_2823_BUFG | cputop/cu/dtrigger/E[0]  | Reset_IBUF       |               22 |             39 |
+|  key/O1        | cputop/ir/p_0_in         |                  |               12 |             96 |
++----------------+--------------------------+------------------+------------------+----------------+
+
+

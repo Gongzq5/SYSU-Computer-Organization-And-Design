@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "simForFPGA_behav" --prj "H:/Vivado/VivadoProject/MultiCPUBasys3/MultiCPUBasys3.sim/sim_1/behav/simForFPGA.prj" "xil_defaultlib.simForFPGA" "xil_defaultlib.glbl" 

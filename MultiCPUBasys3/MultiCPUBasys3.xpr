@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2014.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
+
+<Project Version="7" Minor="1" Path="H:/Vivado/VivadoProject/MultiCPUBasys3/MultiCPUBasys3.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="272f6b24f4c64380989d11706b829936"/>
+    <Option Name="Part" Val="xc7a35tcpg236-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="SimulatorLanguage" Val="Verilog"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/new/NextStateProductor.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/NextStateProductor.v"/>
+          <Attr Name="ImportTime" Val="1528995843"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/Dtrigger.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/Dtrigger.v"/>
+          <Attr Name="ImportTime" Val="1529385751"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/SignZeroExtend.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/SignZeroExtend.v"/>
+          <Attr Name="ImportTime" Val="1527338624"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/RegisterFile.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/RegisterFile.v"/>
+          <Attr Name="ImportTime" Val="1527554919"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/PCPlus4.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/PCPlus4.v"/>
+          <Attr Name="ImportTime" Val="1527321447"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/PC.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/PC.v"/>
+          <Attr Name="ImportTime" Val="1529385177"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/Multiplexer4_32.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/Multiplexer4_32.v"/>
+          <Attr Name="ImportTime" Val="1528995133"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/Multiplexer2_32_5.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/Multiplexer2_32_5.v"/>
+          <Attr Name="ImportTime" Val="1527339205"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/Multiplexer2_32.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/Multiplexer2_32.v"/>
+          <Attr Name="ImportTime" Val="1527339266"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/J_Address.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/J_Address.v"/>
+          <Attr Name="ImportTime" Val="1527339297"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/IR.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/IR.v"/>
+          <Attr Name="ImportTime" Val="1529383946"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/InstructMemory.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/InstructMemory.v"/>
+          <Attr Name="ImportTime" Val="1529471745"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/DataSync.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/DataSync.v"/>
+          <Attr Name="ImportTime" Val="1528972329"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/DataMemory.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/DataMemory.v"/>
+          <Attr Name="ImportTime" Val="1529472652"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/ControlUnit.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/ControlUnit.v"/>
+          <Attr Name="ImportTime" Val="1529395669"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/BranchPlus.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/BranchPlus.v"/>
+          <Attr Name="ImportTime" Val="1527533007"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/ALU.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/ALU.v"/>
+          <Attr Name="ImportTime" Val="1528991854"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/Show.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/Study/大二下/计组实验/[实验2] 单周期CPU/singlecyclecpux/singlecyclecpux.srcs/sources_1/imports/new/Show.v"/>
+          <Attr Name="ImportTime" Val="1527529652"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/KeyDown.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/Study/大二下/计组实验/[实验2] 单周期CPU/singlecyclecpux/singlecyclecpux.srcs/sources_1/imports/new/KeyDown.v"/>
+          <Attr Name="ImportTime" Val="1527530264"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/DIVCLK.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/Study/大二下/计组实验/[实验2] 单周期CPU/singlecyclecpux/singlecyclecpux.srcs/sources_1/imports/new/DIVCLK.v"/>
+          <Attr Name="ImportTime" Val="1527558302"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/Display.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/Study/大二下/计组实验/[实验2] 单周期CPU/singlecyclecpux/singlecyclecpux.srcs/sources_1/imports/new/Display.v"/>
+          <Attr Name="ImportTime" Val="1527528504"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/CPU.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/CPU.v"/>
+          <Attr Name="ImportTime" Val="1529392124"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/top.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/Study/大二下/计组实验/[实验2] 单周期CPU/singlecyclecpux/singlecyclecpux.srcs/sources_1/imports/new/top.v"/>
+          <Attr Name="ImportTime" Val="1527559054"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/Multiplexer2_5.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../MultiCPU/MultiCPU.srcs/sources_1/imports/new/Multiplexer2_5.v"/>
+          <Attr Name="ImportTime" Val="1527339216"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="top"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/new/topcons.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/Study/大二下/计组实验/[实验2] 单周期CPU/singlecyclecpux/singlecyclecpux.srcs/constrs_1/imports/new/topcons.xdc"/>
+          <Attr Name="ImportTime" Val="1527558546"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/imports/new/simForFPGA.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/Study/大二下/计组实验/[实验2] 单周期CPU/singlecyclecpux/singlecyclecpux.srcs/sim_1/new/simForFPGA.v"/>
+          <Attr Name="ImportTime" Val="1527555458"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/simForFPGA_behav.wcfg">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="simForFPGA"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/simForFPGA_behav.wcfg"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Runs Version="1" Minor="9">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+  </Runs>
+  <HWSession Dir="hw_1" File="hw.xml"/>
+</Project>
