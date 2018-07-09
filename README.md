@@ -14,3 +14,12 @@ such as
 
 ## SingleCPUBasys3
 单周期CPU+烧板（Basys3 FPGA板子）
+
+## MultiCPU
+同理是多周期的代码
+
+## MultiCPUBasys3
+同理是多周期CPU+烧板
+
+## PS:
+里边附赠了一些README可以看看哈哈
